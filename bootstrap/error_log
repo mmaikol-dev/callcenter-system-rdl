@@ -1,0 +1,60 @@
+[19-Jan-2026 08:31:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[14-Feb-2026 03:17:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[24-Feb-2026 21:39:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[03-Mar-2026 20:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[11-Mar-2026 00:37:47 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[02-Apr-2026 00:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[05-Jun-2026 06:19:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[15-Jun-2026 10:59:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[15-Jun-2026 21:23:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10
+[23-Sep-2026 06:42:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/aiserver/public_html/bootstrap/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/bootstrap/app.php on line 10

@@ -1,0 +1,4 @@
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/aiserver/public_html/app/Providers/AppServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Providers/AppServiceProvider.php on line 7

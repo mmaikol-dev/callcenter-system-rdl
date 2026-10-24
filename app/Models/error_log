@@ -1,0 +1,144 @@
+[13-Mar-2026 03:24:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Barcode.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Barcode.php on line 9
+[13-Mar-2026 03:24:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Ai.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Ai.php on line 7
+[13-Mar-2026 03:24:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Deduction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Deduction.php on line 8
+[13-Mar-2026 03:24:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Chat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Chat.php on line 7
+[13-Mar-2026 03:24:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/C2BTransaction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/C2BTransaction.php on line 8
+[13-Mar-2026 03:24:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/AppScript.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/AppScript.php on line 7
+[13-Mar-2026 03:24:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Category.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Category.php on line 10
+[13-Mar-2026 03:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/InventoryLog.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/InventoryLog.php on line 8
+[13-Mar-2026 03:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/OrderHistory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/OrderHistory.php on line 8
+[13-Mar-2026 03:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Product.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Product.php on line 11
+[13-Mar-2026 03:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Report.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Report.php on line 7
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Import.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Import.php on line 7
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Transfer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Transfer.php on line 8
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Stats.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Stats.php on line 7
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Sheet.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Sheet.php on line 8
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/MpesaTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/MpesaTransaction.php on line 9
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Stock.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Stock.php on line 7
+[13-Mar-2026 03:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/SheetOrder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/SheetOrder.php on line 8
+[13-Mar-2026 03:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Whatsapp.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Whatsapp.php on line 8
+[13-Mar-2026 03:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/aiserver/public_html/app/Models/User.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/User.php on line 12
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/TaxType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/TaxType.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Stk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Stk.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/waredash.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/waredash.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Unit.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Unit.php on line 10
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/assign.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/assign.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/stat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/stat.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Dispatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Dispatch.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Undelivered.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Undelivered.php on line 7
+[13-Mar-2026 03:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Unremitted.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Unremitted.php on line 7
+[25-May-2026 20:42:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/aiserver/public_html/app/Models/User.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/User.php on line 12
+[15-Jun-2026 10:59:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/MpesaTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/MpesaTransaction.php on line 9
+[15-Jun-2026 10:59:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Stk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Stk.php on line 7
+[15-Jun-2026 10:59:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/aiserver/public_html/app/Models/User.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/User.php on line 12
+[15-Jun-2026 21:23:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/MpesaTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/MpesaTransaction.php on line 9
+[15-Jun-2026 21:23:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/aiserver/public_html/app/Models/Stk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/Stk.php on line 7
+[15-Jun-2026 21:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/aiserver/public_html/app/Models/User.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Models/User.php on line 12

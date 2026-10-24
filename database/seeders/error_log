@@ -1,0 +1,4 @@
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/aiserver/public_html/database/seeders/DatabaseSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/database/seeders/DatabaseSeeder.php on line 9

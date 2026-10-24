@@ -1,0 +1,8 @@
+[25-May-2026 20:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/aiserver/public_html/routes/web.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/routes/web.php on line 37
+[25-May-2026 20:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/aiserver/public_html/routes/api.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/routes/api.php on line 11

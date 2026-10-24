@@ -54,4 +54,31 @@ return [
 
     ],
 
+    'whatsapp' => [
+        'meta' => [
+            'access_token' => env('WHATSAPP_META_ACCESS_TOKEN'),
+            'phone_number_id' => env('WHATSAPP_META_PHONE_NUMBER_ID'),
+            'api_version' => env('WHATSAPP_META_API_VERSION', 'v22.0'),
+            'template_name' => env('WHATSAPP_META_TEMPLATE_NAME', 'inventory_stock_alert'),
+            'template_language' => env('WHATSAPP_META_TEMPLATE_LANGUAGE', 'en'),
+        ],
+        'openwa' => [
+            'base_url' => env('OPENWA_BASE_URL', 'http://localhost:2785'),
+            'session' => env('OPENWA_SESSION'),
+            'api_key' => env('OPENWA_API_KEY'),
+        ],
+    ],
+
+    'telegram' => [
+        'bot_token' => env('TELEGRAM_BOT_TOKEN'),
+    ],
+
+    'tenor' => [
+        'api_key' => env('TENOR_API_KEY'),
+    ],
+
+    'gemini' => [
+        'api_key' => env('GEMINI_API_KEY'),
+    ],
+
 ];

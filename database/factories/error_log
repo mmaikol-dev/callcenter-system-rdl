@@ -1,0 +1,8 @@
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/aiserver/public_html/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/database/factories/UserFactory.php on line 12
+[25-May-2026 20:41:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/aiserver/public_html/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/database/factories/UserFactory.php on line 12

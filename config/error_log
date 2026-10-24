@@ -1,0 +1,1232 @@
+[19-Jan-2026 08:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[19-Jan-2026 08:31:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[19-Jan-2026 08:31:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[19-Jan-2026 08:31:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[19-Jan-2026 08:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Jan-2026 08:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[19-Jan-2026 08:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[20-Jan-2026 16:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[20-Jan-2026 16:59:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[20-Jan-2026 17:49:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[20-Jan-2026 17:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[24-Jan-2026 14:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[24-Jan-2026 14:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[24-Jan-2026 14:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[24-Jan-2026 14:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[24-Jan-2026 14:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[24-Jan-2026 14:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[30-Jan-2026 03:07:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jan-2026 03:07:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jan-2026 03:07:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jan-2026 03:07:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jan-2026 03:09:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[30-Jan-2026 03:14:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[31-Jan-2026 23:08:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[02-Feb-2026 16:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[02-Feb-2026 16:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[02-Feb-2026 16:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[02-Feb-2026 16:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[02-Feb-2026 16:22:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[10-Feb-2026 06:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[12-Feb-2026 17:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[14-Feb-2026 03:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[14-Feb-2026 03:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[14-Feb-2026 03:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[14-Feb-2026 03:06:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[14-Feb-2026 03:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[14-Feb-2026 03:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[14-Feb-2026 03:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[14-Feb-2026 03:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[14-Feb-2026 03:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[14-Feb-2026 03:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[19-Feb-2026 03:52:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[24-Feb-2026 21:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[24-Feb-2026 21:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[24-Feb-2026 21:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[24-Feb-2026 21:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[24-Feb-2026 21:32:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[24-Feb-2026 21:39:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[24-Feb-2026 21:39:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[24-Feb-2026 21:39:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[24-Feb-2026 21:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[24-Feb-2026 21:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[01-Mar-2026 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[01-Mar-2026 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[01-Mar-2026 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[01-Mar-2026 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[01-Mar-2026 04:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[01-Mar-2026 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[03-Mar-2026 20:22:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[03-Mar-2026 20:22:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[03-Mar-2026 20:22:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[03-Mar-2026 20:22:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[03-Mar-2026 20:24:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[03-Mar-2026 20:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[03-Mar-2026 20:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[03-Mar-2026 20:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[03-Mar-2026 20:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[03-Mar-2026 20:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[04-Mar-2026 03:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[04-Mar-2026 03:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[04-Mar-2026 03:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[04-Mar-2026 03:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[08-Mar-2026 06:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[08-Mar-2026 06:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[08-Mar-2026 06:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[08-Mar-2026 06:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[08-Mar-2026 06:42:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[08-Mar-2026 06:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[11-Mar-2026 00:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[11-Mar-2026 00:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[11-Mar-2026 00:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[11-Mar-2026 00:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[11-Mar-2026 00:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[11-Mar-2026 00:37:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[11-Mar-2026 00:37:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[11-Mar-2026 00:37:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[11-Mar-2026 00:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[11-Mar-2026 00:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[13-Mar-2026 03:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/aiserver/public_html/config/inertia.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/inertia.php on line 41
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[13-Mar-2026 03:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[23-Mar-2026 16:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[23-Mar-2026 16:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[23-Mar-2026 16:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[23-Mar-2026 16:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[23-Mar-2026 16:40:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[23-Mar-2026 17:33:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[23-Mar-2026 17:33:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[23-Mar-2026 17:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[23-Mar-2026 17:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[24-Mar-2026 20:03:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[24-Mar-2026 20:03:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[02-Apr-2026 00:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[02-Apr-2026 00:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[02-Apr-2026 00:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[02-Apr-2026 00:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[02-Apr-2026 00:20:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[02-Apr-2026 00:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[02-Apr-2026 00:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[02-Apr-2026 00:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[02-Apr-2026 00:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[02-Apr-2026 00:25:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[19-Apr-2026 11:35:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[23-Apr-2026 04:07:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[04-May-2026 16:47:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[18-May-2026 08:35:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[25-May-2026 20:25:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[25-May-2026 20:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[25-May-2026 20:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[25-May-2026 20:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[25-May-2026 20:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[25-May-2026 20:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[25-May-2026 20:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[05-Jun-2026 06:01:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[05-Jun-2026 06:12:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[05-Jun-2026 06:16:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[05-Jun-2026 06:22:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[05-Jun-2026 06:29:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[05-Jun-2026 07:14:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[05-Jun-2026 07:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[05-Jun-2026 07:23:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[05-Jun-2026 07:25:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[07-Jun-2026 07:01:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[15-Jun-2026 10:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[15-Jun-2026 10:58:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[15-Jun-2026 10:58:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[15-Jun-2026 10:58:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[15-Jun-2026 10:58:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[15-Jun-2026 21:23:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[15-Jun-2026 21:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[15-Jun-2026 21:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[17-Jun-2026 07:38:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[20-Jun-2026 09:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:39:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:39:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:39:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:39:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:39:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:39:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:39:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 04:39:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 04:39:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 04:39:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 04:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:39:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 04:40:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:40:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 04:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 04:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 04:40:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 04:40:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 12:43:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 12:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 12:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[30-Jun-2026 12:44:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 12:44:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 12:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Jun-2026 12:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 12:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 12:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Jun-2026 12:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 12:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 12:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[30-Jun-2026 12:44:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 12:44:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[30-Jun-2026 12:44:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[02-Jul-2026 20:39:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[02-Jul-2026 21:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[02-Jul-2026 21:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[02-Jul-2026 21:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[02-Jul-2026 21:26:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[04-Jul-2026 12:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[04-Jul-2026 12:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[07-Jul-2026 08:37:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/queue.php on line 16
+[07-Jul-2026 08:40:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[07-Jul-2026 08:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/logging.php on line 21
+[12-Jul-2026 10:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[12-Jul-2026 10:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[12-Jul-2026 10:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[12-Jul-2026 10:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[13-Jul-2026 20:24:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[13-Jul-2026 20:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[13-Jul-2026 20:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[13-Jul-2026 20:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[13-Jul-2026 20:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[13-Jul-2026 20:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[13-Jul-2026 20:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[13-Jul-2026 20:32:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[13-Jul-2026 20:32:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[16-Jul-2026 08:45:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[21-Jul-2026 20:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[21-Jul-2026 20:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[21-Jul-2026 20:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[21-Jul-2026 20:42:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[21-Jul-2026 20:42:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[21-Jul-2026 20:42:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[21-Jul-2026 20:42:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[21-Jul-2026 20:42:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[21-Jul-2026 20:49:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[21-Jul-2026 20:49:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[21-Jul-2026 20:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[21-Jul-2026 20:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[21-Jul-2026 20:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[21-Jul-2026 20:50:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[21-Jul-2026 20:50:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[21-Jul-2026 20:50:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[21-Jul-2026 20:50:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[22-Jul-2026 12:04:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[31-Jul-2026 14:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[31-Jul-2026 14:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[31-Jul-2026 14:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[04-Aug-2026 05:22:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[06-Aug-2026 05:19:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[07-Aug-2026 04:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[11-Aug-2026 05:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[11-Aug-2026 05:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[11-Aug-2026 05:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[21-Aug-2026 10:56:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[22-Aug-2026 19:39:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[22-Aug-2026 19:39:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[30-Aug-2026 10:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[30-Aug-2026 10:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[31-Aug-2026 16:36:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/app.php on line 16
+[09-Sep-2026 05:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[09-Sep-2026 05:15:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[14-Sep-2026 16:56:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[14-Sep-2026 16:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[17-Sep-2026 23:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[19-Sep-2026 07:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[20-Sep-2026 19:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[22-Sep-2026 07:30:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[23-Sep-2026 06:40:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[23-Sep-2026 08:38:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/session.php on line 21
+[23-Sep-2026 08:46:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[23-Sep-2026 10:08:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[23-Sep-2026 10:10:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/filesystems.php on line 16
+[23-Sep-2026 10:16:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/services.php on line 18
+[23-Sep-2026 10:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/auth.php on line 17
+[24-Sep-2026 05:44:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[05-Oct-2026 10:13:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[16-Oct-2026 13:46:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18
+[17-Oct-2026 10:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/database.php on line 19
+[17-Oct-2026 10:50:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/mail.php on line 17
+[18-Oct-2026 05:06:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/aiserver/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/config/cache.php on line 18

@@ -1,63 +1,59 @@
 import { NavMain } from '@/components/nav-main';
 import { NavUser } from '@/components/nav-user';
+import { CommandPaletteTrigger } from '@/components/command-palette';
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
+  SidebarGroup,
+  SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem
+  SidebarMenuItem,
+  SidebarRail,
 } from '@/components/ui/sidebar';
-import { Link } from '@inertiajs/react';
+import { getNavigationForUser } from '@/components/navigation';
+import { Link, usePage } from '@inertiajs/react';
 import AppLogo from './app-logo';
-import { PhoneCall } from 'lucide-react';
-import { PhoneCallIcon } from 'lucide-react';
-
-const callCenterNav = [
-  {
-    label: 'Call Center',
-    items: [
-      { title: 'Call Center', href: '/voice', icon: PhoneCall },
-      { title: 'Call Logs & Sessions', href: '/voice/logs', icon: PhoneCallIcon },
-    ],
-  },
-];
 
 export function AppSidebar() {
+  const { auth } = usePage<{ auth: { user: { roles?: string } } }>().props;
+  const sections = getNavigationForUser(auth.user.roles);
+
   return (
     <Sidebar collapsible="icon" variant="inset">
-      {/* LOGO */}
-      <SidebarHeader>
+      <SidebarHeader className="px-3 pt-3">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" asChild>
+            <SidebarMenuButton size="lg" asChild className="h-12 rounded-xl hover:bg-sidebar-accent/60 data-[state=open]:bg-sidebar-accent">
               <Link href="/dashboard" prefetch>
                 <AppLogo />
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
+
+        <div className="group-data-[collapsible=icon]:hidden">
+          <CommandPaletteTrigger className="mt-1 w-full border-sidebar-border/70 bg-sidebar-accent/40 text-sidebar-foreground/50 hover:bg-sidebar-accent hover:text-sidebar-foreground" />
+        </div>
       </SidebarHeader>
 
-      {/* NAVIGATION */}
-      <SidebarContent className="scrollbar-custom overflow-y-auto">
-        {callCenterNav.map((dept) => (
-          <div key={dept.label} className="mb-4">
-            <p className="px-3 text-xs font-semibold text-muted-foreground uppercase tracking-wider 
-              transition-all duration-200
-              group-data-[state=collapsed]:hidden">
-              {dept.label}
-            </p>
-            <NavMain items={dept.items} />
-          </div>
+      <SidebarContent className="scrollbar-custom gap-0 overflow-y-auto px-1 py-2">
+        {sections.map((section) => (
+          <SidebarGroup key={section.label} className="px-2 py-1">
+            <SidebarGroupLabel className="h-7 px-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-sidebar-foreground/35">
+              {section.label}
+            </SidebarGroupLabel>
+            <NavMain items={section.items} />
+          </SidebarGroup>
         ))}
       </SidebarContent>
 
-      {/* FOOTER */}
-      <SidebarFooter>
+      <SidebarFooter className="border-t border-sidebar-border/60 p-2">
         <NavUser />
       </SidebarFooter>
+      <SidebarRail />
     </Sidebar>
   );
 }

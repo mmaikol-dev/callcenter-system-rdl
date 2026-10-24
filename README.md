@@ -1,523 +1,176 @@
-# Cloud-Based Call Center System
 
-A Laravel-based call center platform for browser-based voice operations, agent presence management, inbound call routing, outbound calling, missed-call follow-up, and call activity visibility.
+# Real Deal Logistics System (RDLS)
 
-This codebase is centered around Africa's Talking voice/WebRTC flows and a web UI for call center agents. The main runtime behavior lives in [app/Http/Controllers/VoiceController.php](/home/atlas/callcentersys/app/Http/Controllers/VoiceController.php), with the operator UI in [resources/js/components/voice/voice-panel.tsx](/home/atlas/callcentersys/resources/js/components/voice/voice-panel.tsx) and [resources/js/pages/Voice/logs.tsx](/home/atlas/callcentersys/resources/js/pages/Voice/logs.tsx).
+A logistics and order management system built with **Laravel** to streamline product distribution, call center management, Google Sheets integration, AI-powered inventory management, and M-Pesa payments.
 
-## Overview
+## 🚀 Features
 
-The system provides:
+- **Product & Inventory Management**
+  - Create products, assign categories & merchants
+  - Track quantities across distributors/agents
+  - Prevent deductions when stock reaches zero
+  - **AI-Powered Inventory Insights**:
+    - Forecast demand using sales & stock data
+    - Get restocking recommendations
+    - Detect anomalies in stock movement
+    - Generate quick reports via AI API
 
-- browser/WebRTC client initialization for agents
-- agent status tracking: `available`, `busy`, `away`, `offline`, `on_call`
-- inbound call routing to available mapped agents
-- outbound call initiation from the browser
-- call lifecycle tracking through provider callbacks
-- missed-call listing and handling-state updates
-- session visibility for supervisors/operators
-- a smoke-check command for recent voice test coverage
+- **Order Management**
+  - Fetch & sync orders from **Google Sheets**
+  - Handle scheduled & rescheduled deliveries
+  - Assign call center agents automatically
+  - Track updates with progress storage tables
 
-## Stack
+- **Call Center Module**
+  - Assign orders to call center agents
+  - Handle voice calls via Africa’s Talking API
+  - Logs for incoming & outgoing calls
 
-- Backend: Laravel 12, PHP 8.2+
-- Frontend: Inertia.js, React, TypeScript, Vite
-- UI: Tailwind CSS, shadcn/ui
-- Voice provider: Africa's Talking Voice + WebRTC
-- Database: MySQL
-- Cache/session support: Laravel cache + session layer
+- **Payments Integration**
+  - **M-Pesa STK Push** support
+  - **M-Pesa Pull API** for transactions
+  - Store and filter transactions by order, phone, and date
 
-## Main Modules
+- **Automation**
+  - Cron jobs for fetching orders & updates
+  - Scheduled delivery notifications at 8:00 AM
+  - SMS & WhatsApp customer communication
 
-### 1. Agent Voice Workspace
+## WhatsApp Inventory Notifications
 
-The voice workspace is the main operator screen at `/voice`.
+This feature notifies the warehouse team when stock changes and keeps an auditable record of inventory message delivery. Meta WhatsApp Cloud API is the primary provider; OpenWA is the fallback after a definitive Meta rejection.
 
-Responsibilities:
+### Alert events
 
-- initialize a WebRTC client for the signed-in agent
-- request a capability token from the backend
-- map the generated `client_name` to a user
-- send heartbeats to keep the agent session fresh
-- place outbound calls
-- receive inbound calls
-- answer, hang up, mute, and monitor call duration
-- poll call state for outbound progress updates
+- **Depleted stock:** Alert when a product reaches zero stock or below.
+- **Near-depletion:** Alert when stock crosses into that product's `quantity_alert` threshold.
+- **Stock changes:** Notify after a successful manual stock increase or decrease, including the product, previous and new quantity, change amount, reason when supplied, actor and timestamp.
+- **Recovery:** Alert when a depleted or near-depleted product is replenished above its threshold.
+- **Daily digest (planned):** Summarize current depleted and near-depleted products with counts and links back to inventory.
+- **Delivery health:** Show sent, failed, queued and retried notifications, provider/message IDs and timestamps in an admin-facing history.
 
-Primary files:
+### How delivery should work
 
-- [resources/js/components/voice/voice-panel.tsx](/home/atlas/callcentersys/resources/js/components/voice/voice-panel.tsx)
-- [resources/js/pages/Voice/index.tsx](/home/atlas/callcentersys/resources/js/pages/Voice/index.tsx)
-- [app/Http/Controllers/VoiceController.php](/home/atlas/callcentersys/app/Http/Controllers/VoiceController.php)
+1. A stock operation commits successfully; failed or rolled-back operations must never send a notification.
+2. The inventory event is placed on the queue after commit so the stock update remains fast and delivery can be retried independently.
+3. A notification policy checks enabled event types, product thresholds, opted-in recipients and duplicate suppression. Low-stock alerts are sent on threshold transitions rather than on every edit while stock stays low.
+4. The delivery service sends through Meta first. After a definitive rejection, it sends through OpenWA and records the primary failure. An ambiguous timeout or server error is marked `unknown` and is not automatically sent through the fallback, to avoid duplicates.
+5. Each recipient delivery is stored with a stable idempotency key, status, error summary, retry count and provider message ID. Definitive failures retry with bounded backoff; unknown outcomes require an administrator to check provider delivery first.
+6. Administrators can configure recipients and event types, send a test message, inspect delivery history and retry eligible failures.
 
-### 2. Call Logs And Session Monitoring
+### Safeguards and configuration
 
-The logs screen at `/voice/logs` gives operators or supervisors a filtered view of call activity and current agent session state.
+- Require verified, opted-in recipient numbers in international format; restrict settings and manual retries to authorized administrators.
+- Use Meta-approved templates when the WhatsApp conversation window requires them. Keep template name, language and parameter mapping configurable.
+- Keep Meta access tokens, phone-number IDs and OpenWA endpoint/authentication out of source control. Do not log secrets or full sensitive message payloads.
+- The OpenWA fallback sends `POST /api/sessions/{sessionId}/messages/send-text`, authenticates with `X-API-Key`, and supplies `{ "chatId": "<country-code-number>@c.us", "text": "..." }`.
+- Deduplicate repeated low-stock alerts until the product recovers above its threshold (or an administrator explicitly requests another alert).
+- Provide test sends and clear delivery errors before enabling live sends.
 
-Capabilities:
+### Setup and operations
 
-- filter logs by direction, status, search term, and page size
-- show summary counters for total, active, missed, and completed-today calls
-- list agent session state with mapped WebRTC client names and last heartbeat times
+1. Configure `WHATSAPP_META_ACCESS_TOKEN`, `WHATSAPP_META_PHONE_NUMBER_ID`, `WHATSAPP_META_TEMPLATE_NAME`, `WHATSAPP_META_TEMPLATE_LANGUAGE`, `OPENWA_BASE_URL`, `OPENWA_SESSION` and `OPENWA_API_KEY` in the server environment. Never commit real values.
+2. Create and approve a Meta template whose body has one text parameter for the full inventory alert. Meta can reject an unapproved or differently shaped template; definitive rejection falls back to OpenWA.
+3. Run database migrations (including the database queue tables) and a Laravel queue worker (`php artisan queue:work`) so sending and bounded retries happen outside stock update requests. This project uses Laravel's database queue by default, so the `jobs` and `failed_jobs` tables must exist before queuing test or inventory notifications.
+4. Open **WhatsApp Alerts**, add opted-in recipients in E.164 format, choose event types, and send a test before enabling recipients.
+5. A network timeout or provider 5xx is marked with an unknown outcome and does not trigger automatic fallback or retry; check provider delivery before retrying to avoid duplicates.
 
-Primary files:
+Daily digests and quiet hours remain follow-up enhancements. Live sending should be enabled only after any credentials shared during development have been rotated, the Meta template is approved, the OpenWA session is active, and recipient consent is verified.
 
-- [resources/js/pages/Voice/logs.tsx](/home/atlas/callcentersys/resources/js/pages/Voice/logs.tsx)
-- [app/Http/Controllers/VoiceController.php](/home/atlas/callcentersys/app/Http/Controllers/VoiceController.php)
+- **Dashboard & Reports**
+  - Filters for orders (status, merchant, date, type, call center, etc.)
+  - Analytics & charts for monitoring performance
+  - AI-generated summaries for inventory & sales trends
 
-### 3. Missed Call Handling
+## 🛠️ Tech Stack
 
-Missed calls are stored in `call_logs` with `is_missed = true`. The API exposes listing and state updates so the team can mark missed calls as handled or not handled.
+- **Backend**: Laravel (PHP 8+)
+- **Database**: MySQL
+- **Frontend**: Inertia.js + React + TailwindCSS + ShadCN UI
+- **AI API**: Google Gemini / OpenAI for inventory insights & reporting
+- **APIs**: Google Sheets API, Africa’s Talking Voice/SMS, Safaricom M-Pesa API
+- **Deployment**: cPanel + Cron Jobs
 
-Capabilities:
+## ⚙️ Installation
 
-- paginate missed calls
-- restrict views for call center agents to their own/unassigned missed calls
-- update `metadata.handling_status` to `handled` or `not_handled`
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/mmaikol-dev/rdlsystem.git
+   cd rdlsystem
+````
 
-### 4. Voice Smoke Verification
+2. Install dependencies:
 
-The project includes a CLI verification command to inspect recent voice outcomes after manual testing.
+   ```bash
+   composer install
+   npm install && npm run build
+   ```
 
-Command:
+3. Configure environment:
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+   Update `.env` with:
+
+   * Database credentials
+   * Google Sheets API credentials
+   * M-Pesa API keys
+   * Africa’s Talking credentials
+   * AI API Key (Google Gemini / OpenAI)
+
+4. Run migrations:
+
+   ```bash
+   php artisan migrate
+   ```
+
+5. Start development server:
+
+   ```bash
+   php artisan serve
+   ```
+
+## 🖥️ Cron Jobs
+
+Add this to cPanel cron:
 
 ```bash
-php artisan voice:smoke-check
+* * * * * /usr/local/bin/php /home/realdea1/public_html/realdealsystem/artisan schedule:run >> /home/realdea1/public_html/realdealsystem/storage/logs/cron.log 2>&1
 ```
 
-Defined in:
+## 📊 Key Commands
 
-- [app/Console/Commands/VoiceSmokeCheck.php](/home/atlas/callcentersys/app/Console/Commands/VoiceSmokeCheck.php)
+* Update product quantities:
 
-The command checks recent call logs for scenarios like:
+  ```bash
+  php artisan products:update-quantities
+  ```
 
-- answered outbound
-- busy response
-- no answer
-- rejected
-- inbound traffic observed
+* Fetch and store orders:
 
-## Runtime Architecture
+  ```bash
+  php artisan orders:fetch
+  ```
 
-```mermaid
-flowchart LR
-    A[Agent Browser] --> B[React Voice Panel]
-    B --> C[Laravel VoiceController]
-    C --> D[(MySQL call_logs/users)]
-    C --> E[(Cache mappings and heartbeat)]
-    C --> F[Africa's Talking WebRTC API]
-    C --> G[Africa's Talking Voice API]
-    G --> C
-    F --> B
-```
+* Sync Google Sheets:
 
-## Core Data Relationships
+  ```bash
+  php artisan orders:update-sheet
+  ```
 
-```mermaid
-erDiagram
-    USERS ||--o{ CALL_LOGS : handles
-    USERS {
-        bigint id
-        string name
-        string email
-        string roles
-        string status
-    }
-    CALL_LOGS {
-        bigint id
-        string session_id
-        string provider_session_id
-        string direction
-        string from_number
-        string to_number
-        bigint agent_user_id
-        string agent_client_name
-        string status
-        boolean is_missed
-        datetime started_at
-        datetime answered_at
-        datetime ended_at
-        integer duration_seconds
-        json metadata
-    }
-```
+* AI Inventory Insights:
 
-## End-To-End Processes
+  ```bash
+  php artisan ai:inventory-report
+  ```
 
-### Agent Initialization Flow
+## 🤝 Contributing
 
-When an agent opens the call center screen, the UI initializes the WebRTC client and registers the agent for routing.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-```mermaid
-sequenceDiagram
-    participant A as Agent Browser
-    participant U as Voice Panel
-    participant L as Laravel
-    participant AT as Africa's Talking WebRTC
-    participant C as Cache
+## 📜 License
 
-    A->>U: Open /voice
-    U->>L: POST /voice/generate-webrtc-token
-    L->>AT: Request capability token
-    AT-->>L: token + lifetime
-    L->>C: Save client_name <-> user mapping
-    L->>C: Save default agent + last seen
-    L-->>U: token + clientName
-    U->>AT: Connect WebRTC client
-    U->>L: POST /voice/client-health
-    L->>C: Refresh last_seen heartbeat
-```
-
-Important behavior:
-
-- the agent cannot switch to `available` until a WebRTC client mapping exists
-- the backend stores `voice_agent_client_{userId}` and `voice_agent_last_seen_{userId}` in cache
-- the frontend sends periodic heartbeat requests while idle and connected
-
-### Outbound Call Flow
-
-Outbound calls are initiated by an agent from the browser. The backend creates a local `call_logs` row first, then the provider callback bridges the customer leg to the WebRTC client.
-
-```mermaid
-sequenceDiagram
-    participant A as Agent Browser
-    participant U as Voice Panel
-    participant L as Laravel
-    participant DB as MySQL
-    participant C as Cache
-    participant AT as Africa's Talking Voice
-
-    A->>U: Dial customer number
-    U->>L: POST /api/voice/make-call
-    L->>DB: Create outbound call_log with initiated status
-    L->>C: Save outbound call mapping
-    L->>AT: Request voice call
-    AT-->>L: Provider response
-    L->>DB: Update call to ringing
-    L-->>U: Return local session_id
-    U->>L: Poll /voice/calls/{sessionId}/status
-    AT->>L: Callback/status webhook
-    L->>DB: Mark connected/completed/failed
-    L->>U: Status endpoint reflects current call state
-```
-
-Detailed backend steps:
-
-1. Normalize the destination number.
-2. Create `call_logs` row with `direction = outbound`.
-3. Cache outbound session references for callback correlation.
-4. Call `https://voice.africastalking.com/call`.
-5. Update call status to `ringing` or `failed`.
-6. When callback becomes active, bridge to the mapped WebRTC client.
-7. When the provider reports an end state, set duration, provider end state, and agent availability.
-
-### Inbound Call Flow
-
-Inbound calls come in through provider webhooks. The backend either routes the caller to an available mapped agent or marks the call as missed.
-
-```mermaid
-sequenceDiagram
-    participant Caller as Customer
-    participant AT as Africa's Talking Voice
-    participant L as Laravel
-    participant DB as MySQL
-    participant C as Cache
-    participant Agent as Available Agent
-
-    Caller->>AT: Call business number
-    AT->>L: POST /api/webhooks/voice/incoming
-    L->>DB: First-or-create inbound call_log
-    L->>L: Find available agent
-    L->>C: Read mapped client names + round robin index
-    alt Agent available
-        L->>DB: Update call to ringing and assign agent
-        L->>DB: Set agent status to busy
-        L-->>AT: XML Dial response with client_name
-        AT->>Agent: Ring browser/WebRTC client
-    else No agent available
-        L->>DB: Mark missed
-        L-->>AT: XML unavailable message
-    end
-```
-
-Routing rules implemented today:
-
-- candidate users are filtered from `users`
-- role matching accepts values like `callcenter`, `callcenter1`, `agent`, or strings containing `agent`
-- only `status = available` users are considered routable
-- agents without a cache-mapped `client_name` are skipped
-- available agents are selected with a round-robin index stored in cache
-
-### Missed Call Follow-Up Flow
-
-```mermaid
-flowchart TD
-    A[Inbound call arrives] --> B{Available mapped agent found?}
-    B -- No --> C[Mark call_logs.is_missed = true]
-    C --> D[Expose in /voice/missed-calls]
-    D --> E[Agent/Supervisor reviews missed calls]
-    E --> F[PATCH handling_status]
-    F --> G[Store metadata.handling_status]
-    B -- Yes --> H[Route call to agent]
-```
-
-### Status Synchronization Flow
-
-```mermaid
-flowchart TD
-    A[Provider sends status callback] --> B[Locate call by provider_session_id or session_id]
-    B --> C[Map provider state to app status]
-    C --> D[Update answered_at, ended_at, duration_seconds]
-    D --> E{Inbound and unanswered?}
-    E -- Yes --> F[Mark as missed]
-    E -- No --> G[Keep normal call state]
-    F --> H[If agent exists, release to available when call ends]
-    G --> H
-```
-
-Provider state mapping in the controller:
-
-- `initiated`, `queued` -> `initiated`
-- `ringing` -> `ringing`
-- `active`, `answered`, `connected` -> `connected`
-- `completed`, `ended` -> `completed`
-- `busy`, `rejected`, `notanswered`, `noanswer`, `unavailable` -> `failed`
-
-## Route Map
-
-### Authenticated Web Routes
-
-- `GET /voice` -> main call center workspace
-- `GET /voice/logs` -> call logs and agent sessions
-- `POST /voice/generate-webrtc-token` -> create WebRTC token
-- `POST /voice/client-health` -> update heartbeat
-- `PATCH /voice/agent-status` -> change current user availability
-- `GET /voice/missed-calls` -> fetch missed calls
-- `PATCH /voice/missed-calls/{call}/handling-status` -> update missed-call handling state
-- `GET /voice/active-sessions` -> list call center session state
-- `POST /voice/set-default-agent` -> store default agent client name
-- `GET /voice/test` -> test token request against provider
-- `GET /voice/calls/{sessionId}/status` -> query session state
-
-### API Routes / Webhooks
-
-- `POST /api/make-call`
-- `POST /api/end-call`
-- `POST /api/log-call`
-- `POST /api/voice/make-call`
-- `POST /api/voice/generate-webrtc-token`
-- `POST /api/voice/client-health`
-- `POST /api/voice/callback`
-- `POST /api/voice/status`
-- `POST /api/voice/incoming`
-- `POST /api/webhooks/voice/callback`
-- `POST /api/webhooks/voice/status`
-- `POST /api/webhooks/voice/incoming`
-
-## Status Model
-
-### Agent Statuses
-
-Supported values in the controller:
-
-- `available`
-- `busy`
-- `away`
-- `offline`
-- `on_call`
-
-Practical meaning:
-
-- `offline`: not ready for routing
-- `away`: intentionally unavailable
-- `available`: routable for inbound calls
-- `busy`: reserved during inbound assignment/ringing
-- `on_call`: currently connected on an active call
-
-### Call Statuses
-
-Common values in `call_logs.status`:
-
-- `initiated`
-- `ringing`
-- `connected`
-- `completed`
-- `failed`
-- `missed`
-
-## Caching Strategy
-
-The voice flow depends on cache for low-latency presence and routing state.
-
-Current cache keys used by the controller include:
-
-- `voice_client_user_{clientName}`
-- `voice_agent_client_{userId}`
-- `voice_agent_last_seen_{userId}`
-- `default_agent`
-- `voice_rr_index`
-- `outbound_call_{localSessionId}`
-- `active_outbound_{phoneNumber}`
-
-Cache is important for:
-
-- linking a signed-in user to a WebRTC `client_name`
-- showing session presence in the UI
-- routing inbound calls only to browser clients that are actually initialized
-- correlating outbound provider callbacks to local call sessions
-
-## Database Notes
-
-The runtime depends primarily on:
-
-- `users`
-- `call_logs`
-
-Important note:
-
-- this repository currently does not include a full clean-slate schema for the wider application database
-- it contains voice-related incremental migrations, not a full from-zero migration history
-- for a real environment, use the intended project schema/database backup before relying on `php artisan migrate` alone
-
-Voice-related migrations present in the repo:
-
-- `2026_02_11_150000_add_status_to_users_table`
-- `2026_02_11_150100_create_call_logs_table`
-- `2026_02_14_073000_fix_call_logs_id_auto_increment`
-
-## Configuration
-
-Key `.env` values for the voice system:
-
-```env
-APP_NAME="Cloud-Based Call Center System"
-APP_URL=http://127.0.0.1:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=realdeal
-DB_USERNAME=maikol
-DB_PASSWORD=your-password
-
-AFRICASTALKING_USERNAME=your-username
-AFRICASTALKING_API_KEY=your-api-key
-AFRICASTALKING_CALL_FROM=+254700000000
-```
-
-Voice-specific configuration sources:
-
-- `config/services.php`
-- [app/Http/Controllers/VoiceController.php](/home/atlas/callcentersys/app/Http/Controllers/VoiceController.php)
-
-## Local Setup
-
-### 1. Install Dependencies
-
-```bash
-composer install --no-dev
-npm install
-```
-
-If you need the full dev toolchain:
-
-```bash
-composer install
-```
-
-### 2. Create Environment File
-
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-If `.env.example` is not present, create `.env` manually using the config above.
-
-### 3. Point The App To A Real Schema
-
-Because the repository does not contain the full historical schema, make sure your MySQL database already contains the main application tables, especially:
-
-- `users`
-- `call_logs`
-
-### 4. Build Frontend Assets
-
-```bash
-npm run build
-```
-
-For local frontend development:
-
-```bash
-npm run dev
-```
-
-### 5. Start The App
-
-```bash
-php artisan serve
-```
-
-Open:
-
-- `http://127.0.0.1:8000/voice`
-- `http://127.0.0.1:8000/voice/logs`
-
-## Testing And Verification
-
-### Manual Voice Smoke Check
-
-Run after manual provider testing:
-
-```bash
-php artisan voice:smoke-check
-```
-
-Custom window/scenarios:
-
-```bash
-php artisan voice:smoke-check --hours=4 --require=answered,busy,noanswer,rejected,inbound
-```
-
-### Recommended Manual Test Matrix
-
-1. Initialize an agent and confirm token generation succeeds.
-2. Set the agent to `available`.
-3. Place an outbound call and verify:
-   - local call row is created
-   - call moves through `initiated` -> `ringing` -> `connected/completed`
-4. Trigger an inbound call and verify:
-   - round-robin routing selects an available mapped agent
-   - agent status changes to `busy`/`on_call`
-5. Trigger an inbound call with no available agents and verify:
-   - call is marked `missed`
-   - missed-call endpoint returns the row
-6. Mark a missed call as `handled`.
-7. Run `php artisan voice:smoke-check`.
-
-## Operational Caveats
-
-- agent routing depends on both `users.status = available` and a cache-mapped `client_name`
-- outbound state tracking relies on provider callbacks and cache correlation
-- the frontend uses polling for outbound session status
-- some callback responses intentionally return XML as `text/plain` because that is what the provider expects
-- `AFRICASTALKING_CALL_FROM` falls back to `+254709369980` if not configured
-- `AFRICASTALKING_USERNAME` falls back to `rdlcallcenter` if not configured
-
-## File Guide
-
-Core backend files:
-
-- [app/Http/Controllers/VoiceController.php](/home/atlas/callcentersys/app/Http/Controllers/VoiceController.php)
-- [app/Models/CallLog.php](/home/atlas/callcentersys/app/Models/CallLog.php)
-- [app/Models/User.php](/home/atlas/callcentersys/app/Models/User.php)
-- [app/Console/Commands/VoiceSmokeCheck.php](/home/atlas/callcentersys/app/Console/Commands/VoiceSmokeCheck.php)
-- [routes/web.php](/home/atlas/callcentersys/routes/web.php)
-- [routes/api.php](/home/atlas/callcentersys/routes/api.php)
-
-Core frontend files:
-
-- [resources/js/components/voice/voice-panel.tsx](/home/atlas/callcentersys/resources/js/components/voice/voice-panel.tsx)
-- [resources/js/pages/Voice/index.tsx](/home/atlas/callcentersys/resources/js/pages/Voice/index.tsx)
-- [resources/js/pages/Voice/logs.tsx](/home/atlas/callcentersys/resources/js/pages/Voice/logs.tsx)
-
+This project is licensed under the MIT License.

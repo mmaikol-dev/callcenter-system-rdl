@@ -1,0 +1,4 @@
+[13-Mar-2026 03:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/aiserver/public_html/app/Http/Requests/Auth/LoginRequest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Http/Requests/Auth/LoginRequest.php on line 11

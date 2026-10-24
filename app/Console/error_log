@@ -1,0 +1,4 @@
+[13-Mar-2026 03:24:45 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Console\Command" not found in /home/aiserver/public_html/app/Console/SendWhatsAppMessage.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/aiserver/public_html/app/Console/SendWhatsAppMessage.php on line 13
